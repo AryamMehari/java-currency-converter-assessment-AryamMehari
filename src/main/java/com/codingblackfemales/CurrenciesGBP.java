@@ -12,8 +12,12 @@ public class CurrenciesGBP implements Currencies {
                 put("EUR", 1.16);
                 put("USD", 1.31);
                 put("JPY", 181.78);
+
             }
         };
+
+        exchangeRates.put("AUD", 7.5);
+
     }
 
     public HashMap<String, Double> getAllExchangeRates() {
